@@ -1,0 +1,22 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+data=read.csv("data.csv")
+data
+```
+
+```{r}
+table(data$Unusual)
+```
+
+```{r}
+boxplot(data$PRBUsageUL)
+```
+
+```{r}
+
+```
+
